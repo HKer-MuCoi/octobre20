@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400:700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* slider */
+.carousel-item {
+  height: 100vh;
+}
+.carousel-caption {
+  position: absolute;
+  top: 38%;
+  width: 100%
+  right: 0;
+  left: 1;
+}
+.carousel-caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.carousel-caption h2 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1.1rem;
+}
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
